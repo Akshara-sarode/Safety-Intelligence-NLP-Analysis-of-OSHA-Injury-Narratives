@@ -29,7 +29,8 @@ This project implements a data-driven safety analytics dashboard leveraging Natu
 - Internal OSHA records and Hand Injuries with Machines dataset
 
 # Description:
-The dataset includes narrative descriptions of workplace injuries, especially hand injuries related to equipment. Each record typically contains:
+  The dataset includes narrative descriptions of workplace injuries, especially hand injuries related to equipment. Each record typically contains:
+  
 - Final Narrative: Free-text description of how the injury occurred
 
 - Cleaned Source: Type of machine involved (e.g., Machine Saw, Hydraulic Press)
@@ -47,7 +48,7 @@ The dataset includes narrative descriptions of workplace injuries, especially ha
 - Month: Month in which the injury was reported
 
 # Record Count:
-~20,000 injury incidents across multiple U.S. states and machine types.
+- ~20,000 injury incidents across multiple U.S. states and machine types.
 
 # Preprocessing:
 
@@ -74,7 +75,7 @@ The dataset includes narrative descriptions of workplace injuries, especially ha
 
 - Bridge structured and unstructured data to form a unified view of occupational safety intelligence.
 
-# Answer critical safety questions:
+# ANSWER CRITICAL SAFETY QUESTIONS:
 - Which machines are linked to the most severe hand injuries?
 
 - Can narrative descriptions predict the type or severity of injuries?
