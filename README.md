@@ -87,30 +87,30 @@ This project implements a data-driven safety analytics dashboard leveraging Natu
 
 # METHODS & TOOLS USED:
 
-- # Python Libraries:
+# Python Libraries:
 pandas, spaCy, nltk, TextBlob, matplotlib, seaborn, wordcloud, rake-nltk, scikit-learn
 
-- # NLP Techniques:
+# NLP Techniques:
 
-Sentiment analysis using TextBlob for polarity classification
+- Sentiment analysis using TextBlob for polarity classification
 
-Keyword extraction using RAKE and TF-IDF (via rake-nltk and TfidfVectorizer)
+- Keyword extraction using RAKE and TF-IDF (via rake-nltk and TfidfVectorizer)
 
-spaCy-based preprocessing: tokenization, lemmatization, stopword filtering
+- spaCy-based preprocessing: tokenization, lemmatization, stopword filtering
 
-Optional Named Entity Recognition (NER) and pattern matching using spaCy pipelines
+- Optional Named Entity Recognition (NER) and pattern matching using spaCy pipelines
 
-- # Data Exploration & Modeling:
+# Data Exploration & Modeling:
 
-SQL-based EDA using SQLite
+- SQL-based EDA using SQLite
 
-Aggregation and pattern mining across machines, causes, and body parts
+- Aggregation and pattern mining across machines, causes, and body parts
 
-Structured + unstructured data fusion using pandas
+- Structured + unstructured data fusion using pandas
 
-- # Visualization:
+# Visualization:
 
-Power BI Dashboard with KPI cards, stacked bar charts, and decomposition trees. 
+- Power BI Dashboard with KPI cards, stacked bar charts, and decomposition trees. 
 
 
 
