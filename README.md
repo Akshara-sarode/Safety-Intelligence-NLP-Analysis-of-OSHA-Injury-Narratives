@@ -25,10 +25,10 @@ This project implements a data-driven safety analytics dashboard leveraging Natu
 
 # DATASET INFORMATION:
 
-# Source:
+# SOURCE:
 - Internal OSHA records and Hand Injuries with Machines dataset
 
-# Description:
+# DESCRIPTION:
   The dataset includes narrative descriptions of workplace injuries, especially hand injuries related to equipment. Each record typically contains:
   
 - Final Narrative: Free-text description of how the injury occurred
@@ -47,10 +47,10 @@ This project implements a data-driven safety analytics dashboard leveraging Natu
 
 - Month: Month in which the injury was reported
 
-# Record Count:
+# RECORD COUNT:
 - ~20,000 injury incidents across multiple U.S. states and machine types.
 
-# Preprocessing:
+# PREPROCESSING:
 
 - Null values removed from critical columns (Final Narrative, Cleaned Source)
 
@@ -87,10 +87,10 @@ This project implements a data-driven safety analytics dashboard leveraging Natu
 
 # METHODS & TOOLS USED:
 
-# Python Libraries:
+# PYTHON LIBRARIES:
 pandas, spaCy, nltk, TextBlob, matplotlib, seaborn, wordcloud, rake-nltk, scikit-learn
 
-# NLP Techniques:
+# NLP TECHNIQUES:
 
 - Sentiment analysis using TextBlob for polarity classification
 
@@ -100,7 +100,7 @@ pandas, spaCy, nltk, TextBlob, matplotlib, seaborn, wordcloud, rake-nltk, scikit
 
 - Optional Named Entity Recognition (NER) and pattern matching using spaCy pipelines
 
-# Data Exploration & Modeling:
+# DATA EXPLORATION & MODELLING:
 
 - SQL-based EDA using SQLite
 
@@ -108,7 +108,7 @@ pandas, spaCy, nltk, TextBlob, matplotlib, seaborn, wordcloud, rake-nltk, scikit
 
 - Structured + unstructured data fusion using pandas
 
-# Visualization:
+# VISUALIZATION:
 
 - Power BI Dashboard with KPI cards, stacked bar charts, and decomposition trees. 
 
