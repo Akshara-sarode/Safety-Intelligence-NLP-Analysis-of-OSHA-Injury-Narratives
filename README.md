@@ -1,5 +1,5 @@
 ## 🧠 Safety Intelligence: NLP Analysis of OSHA Injury Narratives
-This project applies Natural Language Processing (NLP) to analyze OSHA-style injury narratives 🏥, extracting sentiment and keywords to identify machine-specific risks ⚠️. An interactive Power BI dashboard 📊 visualizes key patterns in injury severity, causes, and affected body parts—enabling data-driven workplace safety insights.
+This project applies Natural Language Processing (NLP) to analyze OSHA-style injury narratives, extracting sentiment and keywords to identify machine-specific risks. An interactive Power BI dashboard visualizes key patterns in injury severity, causes, and affected body parts, enabling data-driven workplace safety insights.
 
 
 
