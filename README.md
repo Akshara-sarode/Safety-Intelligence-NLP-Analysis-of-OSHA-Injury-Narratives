@@ -1,4 +1,4 @@
-🧠 Safety Intelligence: NLP Analysis of OSHA Injury Narratives
+## 🧠 Safety Intelligence: NLP Analysis of OSHA Injury Narratives
 This project applies Natural Language Processing (NLP) to analyze OSHA-style injury narratives 🏥, extracting sentiment and keywords to identify machine-specific risks ⚠️. An interactive Power BI dashboard 📊 visualizes key patterns in injury severity, causes, and affected body parts—enabling data-driven workplace safety insights.
 
 
@@ -7,132 +7,138 @@ This project applies Natural Language Processing (NLP) to analyze OSHA-style inj
 
 
 
-🔍 PROJECT OVERVIEW
-This project builds a data-driven safety analytics system using:
+## 🔍 PROJECT OVERVIEW
+- This project builds a data-driven safety analytics system using:
 
-🧠 NLP techniques for narrative classification
+## 🧠 NLP techniques for narrative classification
 
-🗃️ SQLite for structured data exploration
+## 🗃️ SQLite for structured data exploration
 
-📊 Power BI for rich visual dashboards
+- 📊 Power BI for rich visual dashboards
 
-The focus is on OSHA-style hand injury reports, where:
+- The focus is on OSHA-style hand injury reports, where:
 
-Sentiment is analyzed using TextBlob 🧪
+- Sentiment is analyzed using TextBlob 🧪
 
-Keywords are extracted using RAKE and TF-IDF 🔍
+- Keywords are extracted using RAKE and TF-IDF 🔍
 
-Narrative polarity (Urgent, Severe, Neutral) helps gauge severity
+- Narrative polarity (Urgent, Severe, Neutral) helps gauge severity
 
-Machine-specific terms aid root cause analysis 🛠️
+- Machine-specific terms aid root cause analysis 🛠️
 
-All insights are presented via an interactive Power BI Dashboard, with KPIs, decomposition trees, and filtering capabilities for predictive safety management ✅
+- All insights are presented via an interactive Power BI Dashboard, with KPIs, decomposition trees, and filtering capabilities for predictive safety management ✅
 
-🚀 KEY OUTCOMES
-🔧 Identified high-risk machines (e.g., Machine Saw, Hydraulic Press)
+## 🚀 KEY OUTCOMES
 
-⚠️ Classified 20,000+ narratives as Urgent, Severe, or Neutral
+- 🔧 Identified high-risk machines (e.g., Machine Saw, Hydraulic Press)
 
-🧵 Extracted risk keywords using RAKE and TF-IDF
+- ⚠️ Classified 20,000+ narratives as Urgent, Severe, or Neutral
 
-🗺️ Mapped state-wise and time-based injury trends
+- 🧵 Extracted risk keywords using RAKE and TF-IDF
 
-🧬 Fused structured + unstructured data for holistic insights
+- 🗺️ Mapped state-wise and time-based injury trends
 
-📊 Built a rich, interactive Power BI dashboard
+- 🧬 Fused structured + unstructured data for holistic insights
 
-📌 Enabled recommendations for training, inspections, and policy
+- 📊 Built a rich, interactive Power BI dashboard
 
-📂 DATASET INFORMATION
-📦 SOURCE
-Internal OSHA data + Hand Injuries with Machines dataset
+- 📌 Enabled recommendations for training, inspections, and policy
 
-📝 DESCRIPTION
-Includes 20,000+ U.S. workplace incidents across states & machines.
-Each record has:
+## 📂 DATASET INFORMATION
 
-🗣️ Final Narrative: Free-text injury description
+##📦 SOURCE
+- Internal OSHA data + Hand Injuries with Machines dataset
 
-⚙️ Cleaned Source: Machine type
+## 📝 DESCRIPTION
+- Includes 20,000+ U.S. workplace incidents across states & machines.
+  
+- Each record has:
+  
+- 🗣️ Final Narrative: Free-text injury description
 
-📌 Event Title: Incident category
+- ⚙️ Cleaned Source: Machine type
 
-🎯 Likely Cause: Root cause
+- 📌 Event Title: Incident category
 
-💥 General Nature: Injury type
+- 🎯 Likely Cause: Root cause
 
-✋ Body Part: Affected region
+- 💥 General Nature: Injury type
 
-📍 State & 🗓️ Month
+- ✋ Body Part: Affected region
 
-🛠️ PREPROCESSING
-Cleaned missing values
+- 📍 State & 🗓️ Month
 
-Standardized machine names
+## 🛠️ PREPROCESSING
+- Cleaned missing values
 
-Normalized narrative text for NLP
+- Standardized machine names
 
-🎯 OBJECTIVES
-🧾 Track injury trends across machines, states & time
+- Normalized narrative text for NLP
 
-🧠 Apply NLP to extract hidden insights from narratives
+## 🎯 OBJECTIVES
+- 🧾 Track injury trends across machines, states & time
 
-📉 Classify by sentiment (Urgent, Severe, Neutral)
+- 🧠 Apply NLP to extract hidden insights from narratives
 
-🔍 Extract hazard-specific terms using RAKE/TF-IDF
+- 📉 Classify by sentiment (Urgent, Severe, Neutral)
 
-📊 Create an interactive Power BI dashboard
+- 🔍 Extract hazard-specific terms using RAKE/TF-IDF
 
-🧪 Validate insights with SQL-based EDA
+- 📊 Create an interactive Power BI dashboard
 
-🧬 Bridge narrative + structured data for complete safety intelligence
+- 🧪 Validate insights with SQL-based EDA
 
-❓ CRITICAL QUESTIONS ANSWERED
-⚙️ Which machines cause the most severe hand injuries?
+- 🧬 Bridge narrative + structured data for complete safety intelligence
 
-🧠 Can text descriptions predict severity or type?
+## ❓ CRITICAL QUESTIONS ANSWERED
 
-✋ Which body parts are most at risk for each machine?
+- ⚙️ Which machines cause the most severe hand injuries?
 
-🧩 How to improve safety training and inspections using this data?
+- 🧠 Can text descriptions predict severity or type?
 
-🛠️ METHODS & TOOLS USED
-💻 Python Libraries
-pandas, spaCy, nltk, TextBlob, matplotlib, seaborn, wordcloud, rake-nltk, scikit-learn
+- ✋ Which body parts are most at risk for each machine?
 
-🧠 NLP Techniques
-Sentiment with TextBlob
+- 🧩 How to improve safety training and inspections using this data?
 
-Keyword extraction: RAKE & TF-IDF
+## 🛠️ METHODS & TOOLS USED
 
-spaCy for tokenization, lemmatization, NER
+## 💻 Python Libraries
+- pandas, spaCy, nltk, TextBlob, matplotlib, seaborn, wordcloud, rake-nltk, scikit-learn
 
-🗄️ Data Exploration
-Structured EDA using SQLite
+## 🧠 NLP Techniques
+- Sentiment with TextBlob
 
-Aggregation across machine types, causes, and body parts
+- Keyword extraction: RAKE & TF-IDF
 
-Data fusion with pandas
+- spaCy for tokenization, lemmatization, NER
 
-📊 Visualization
-Power BI Dashboard with:
+## 🗄️ Data Exploration
+- Structured EDA using SQLite
 
-KPI cards
+- Aggregation across machine types, causes, and body parts
 
-Stacked bar charts
+- Data fusion with pandas
 
-Decomposition trees
+## 📊 Visualization
+- Power BI Dashboard with:
+  
+- KPI cards
+  
+- Stacked bar charts
+  
+- Decomposition trees
 
-State-level filtering
+- State-level filtering
 
-🧭 RECOMMENDATIONS
-🔧 Prioritize safety for high-risk machines (e.g., Saws, Presses)
+## 🧭 RECOMMENDATIONS
 
-🚨 Use sentiment flags for real-time urgency detection
+- 🔧 Prioritize safety for high-risk machines (e.g., Saws, Presses)
 
-🧾 Add risk keywords to inspection checklists
+- 🚨 Use sentiment flags for real-time urgency detection
 
-📍 Focus programs in Texas, Ohio with high incident rates
+- 🧾 Add risk keywords to inspection checklists
 
-🌐 Use this model in real-time dashboards for early alerts
+- 📍 Focus programs in Texas, Ohio with high incident rates
+
+- 🌐 Use this model in real-time dashboards for early alerts
 
