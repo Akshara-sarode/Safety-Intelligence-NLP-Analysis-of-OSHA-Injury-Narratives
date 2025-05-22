@@ -111,6 +111,7 @@ pandas, spaCy, nltk, TextBlob, matplotlib, seaborn, wordcloud, rake-nltk, scikit
 # VISUALIZATION:
 
 - Power BI Dashboard with KPI cards, stacked bar charts, and decomposition trees. 
+![image](https://github.com/user-attachments/assets/8f0e7363-ee81-4666-841e-9a4ba77bd45d)
 
 
 
